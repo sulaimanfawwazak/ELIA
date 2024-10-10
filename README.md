@@ -1,6 +1,8 @@
 # ELIA (Edus's Language Interactive Assistant)
 ## Retrieval-Augmented Generation (RAG) - Based Chatbot
 
+![ELIA](./ELIA-in-action.png)
+
 This project implements a Retrieval-Augmented Generation (RAG) chatbot using vector embeddings and a document retrieval system. The chatbot can process user queries and provide relevant answers based on pre-embedded documents.
 
 ## Table of Contents
