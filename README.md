@@ -5,13 +5,11 @@ This project implements a Retrieval-Augmented Generation (RAG) chatbot using vec
 
 ## Table of Contents
 
-- [Features](#features)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Code Structure](#code-structure)
-- [Contributing](#contributing)
-- [License](#license)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Requirements](#requirements)
+  - [Installation](#installation)
+  - [Usage](#usage)
 
 ## Features
 
@@ -30,8 +28,12 @@ This project implements a Retrieval-Augmented Generation (RAG) chatbot using vec
   - `langchain_text_splitters`
   - `python-dotenv`
 
-  
+## Installation
 You can install the required packages using:
 
-```bash
-pip install -r requirements.txt
+`pip install -r requirements.txt`
+
+## Usage
+Once all the necessary dependencies are installed, you can run it with:
+
+`python main.py`
