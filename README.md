@@ -3,7 +3,7 @@
 
 ![ELIA](./ELIA-in-action.png)
 
-This project implements a Retrieval-Augmented Generation (RAG) chatbot using vector embeddings and a document retrieval system. The chatbot can process user queries and provide relevant answers based on pre-embedded documents.
+This project implements a Retrieval-Augmented Generation (RAG) chatbot using vector embeddings and a document retrieval system. The chatbot can process user queries and provide relevant answers based on pre-embedded documents. ELIA is the successor of ERIKA, a regex-based Discord bot. You can read more about ERIKA from the [GitHub repository](https://github.com/sulaimanfawwazak/ERIKA).
 
 ## Table of Contents
 
