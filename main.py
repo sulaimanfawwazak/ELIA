@@ -27,6 +27,8 @@ CHROMA_PATH = "chroma"
 # Path for the data source
 DATA_PATH = "data"
 
+CONFUSED_TEXT = "Sorry, I don't seem to find the information regarding this. Please ask me something else"
+
 # Prompt Template
 PROMPT_TEMPLATE = """
 Answer the question based only on the following context:
@@ -36,6 +38,8 @@ Answer the question based only on the following context:
 ---
 
 Answer the question based on the above context: {query}
+
+If you can not seem to find the answer, please answer with a variation of this text: {confused}
 """
 
 # Function to do embeddings
@@ -148,7 +152,7 @@ def query_rag(query_text: str):
   # Create the prompt from the Prompt Template
   prompt_template = ChatPromptTemplate.from_template(PROMPT_TEMPLATE)
 
-  prompt = prompt_template.format(context=context_text, query=query_text)
+  prompt = prompt_template.format(context=context_text, query=query_text, confused=CONFUSED_TEXT)
   # print(prompt)
 
   # Instantiate the model
